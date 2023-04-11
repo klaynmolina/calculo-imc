@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Molina">
+        <link rel="stylesheet" href="style.css" />
+        <script src="scripts.js" defer></script>
+        <link rel="icon"
+            href="img/tx.png">
+        <title>Cálculo de IMC</title>
+    </head>
+    <body>
+        <main>
+            <div class="container top">
+                <h1 id="title">Cálculo de IMC</h1>
+                <div class="resumo">
+                    <h2>
+                        O IMC é um cálculo que ajuda a avaliar se a pessoa está
+                        dentro do seu peso ideal, de acordo com a altura.
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container">
+                    <h2 id="peso">Digite seu peso atual: </h2>
+                    <input placeholder="Peso" type="number" id="campoPeso"
+                        class="info">
+                </div>
+                <div class="container">
+                    <h2 id="altura">Digite sua altura (M): </h2>
+                    <input placeholder="Altura" type="number" id="campoAltura"
+                        class="info">
+                </div>
+            </div>
+
+            <button id="calcular">Calcular</button>
+            <div class="container row">
+                <div class="row">
+                    <h1>Seu IMC é:</h1>
+                    <h1 id="campoResultado"></h1>
+                </div>
+                <h2 id="conteudo"></h2>
+            </div>
+        </main>
+
+        <footer>
+            <a class="github" href="https://github.com/klaynmolina">@Developed
+                by Molina</a>
+        </footer>
+    </body>
+</html>
